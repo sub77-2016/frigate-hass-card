@@ -17415,7 +17415,7 @@ console.info(`%c  FRIGATE-HASS-CARD \n%c  ${localize('common.version')} ${CARD_V
 window.customCards = window.customCards || [];
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 window.customCards.push({
-    type: 'frigate-card',
+    type: 'frigate-card-3',
     name: localize('common.frigate_card'),
     description: localize('common.frigate_card_description'),
     preview: true,
@@ -18442,7 +18442,7 @@ __decorate([
     t$3()
 ], FrigateCard.prototype, "_cameras", void 0);
 FrigateCard = __decorate([
-    n$4('frigate-card')
+    n$4('frigate-card-3')
 ], FrigateCard);
 
 export { FrigateCard };
