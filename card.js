@@ -1226,13 +1226,13 @@ class ActionHandler extends HTMLElement {
         this.style.display = 'none';
     }
 }
-customElements.define('action-handler-frigate-card', ActionHandler);
+customElements.define('action-handler-frigate-card-3', ActionHandler);
 const getActionHandler = () => {
     const body = document.body;
-    if (body.querySelector('action-handler-frigate-card')) {
-        return body.querySelector('action-handler-frigate-card');
+    if (body.querySelector('action-handler-frigate-card-3')) {
+        return body.querySelector('action-handler-frigate-card-3');
     }
-    const actionhandler = document.createElement('action-handler-frigate-card');
+    const actionhandler = document.createElement('action-handler-frigate-card-3');
     body.appendChild(actionhandler);
     return actionhandler;
 };
