@@ -1,6 +1,6 @@
 {
-    "name": "Frigate Card",
+    "name": "Toggle card to hacs",
     "render_readme": true,
-    "filename": "frigate-hass-card.js",
-    "homeassistant": "2022.3.0"
-}
+    "filename": "card.js",
+    "content_in_root": true
+  }
