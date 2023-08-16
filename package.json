@@ -11,7 +11,7 @@
   ],
   "type": "module",
   "module": "frigate-hass-card.js",
-  "repository": "git@github.com:dermotduffy/frigate-hass-card.git",
+  "repository": "git@github.com:sub77-2016/frigate-hass-card.git",
   "author": "Dermot Duffy <dermot.duffy@gmail.com>",
   "license": "MIT",
   "dependencies": {
