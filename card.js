@@ -6185,7 +6185,7 @@ __decorate([
     e$3({ attribute: false })
 ], FrigateCardMessage.prototype, "icon", void 0);
 FrigateCardMessage = __decorate([
-    n$4('frigate-card-message')
+    n$4('frigate-card-message-3')
 ], FrigateCardMessage);
 let FrigateCardErrorMessage = class FrigateCardErrorMessage extends s$2 {
     constructor() {
@@ -6193,12 +6193,12 @@ let FrigateCardErrorMessage = class FrigateCardErrorMessage extends s$2 {
         this.error = '';
     }
     render() {
-        return $ ` <frigate-card-message
+        return $ ` <frigate-card-message-3
       .message=${$ ` ${this.error}.
         <a href="${TROUBLESHOOTING_URL}"> ${localize('error.troubleshooting')}</a>.`}
       .icon=${'mdi:alert-circle'}
     >
-    </frigate-card-message>`;
+    </frigate-card-message-3>`;
     }
 };
 __decorate([
@@ -6237,10 +6237,10 @@ function renderMessage(message) {
     ></frigate-card-error-message>`;
     }
     else if (message.type == 'info') {
-        return $ ` <frigate-card-message
+        return $ ` <frigate-card-message-3
       .message=${message.message}
       .icon=${message.icon}
-    ></frigate-card-message>`;
+    ></frigate-card-message-3>`;
     }
     return $ ``;
 }
