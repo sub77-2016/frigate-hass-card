@@ -6205,7 +6205,7 @@ __decorate([
     e$3({ attribute: false })
 ], FrigateCardErrorMessage.prototype, "error", void 0);
 FrigateCardErrorMessage = __decorate([
-    n$4('frigate-card-error-message')
+    n$4('frigate-card-error-message-3')
 ], FrigateCardErrorMessage);
 let FrigateCardProgressIndicator = class FrigateCardProgressIndicator extends s$2 {
     constructor() {
@@ -6232,9 +6232,9 @@ FrigateCardProgressIndicator = __decorate([
 ], FrigateCardProgressIndicator);
 function renderMessage(message) {
     if (message.type == 'error') {
-        return $ ` <frigate-card-error-message
+        return $ ` <frigate-card-error-message-3
       .error=${message.message}
-    ></frigate-card-error-message>`;
+    ></frigate-card-error-message-3>`;
     }
     else if (message.type == 'info') {
         return $ ` <frigate-card-message-3
