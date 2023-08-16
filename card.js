@@ -6228,7 +6228,7 @@ __decorate([
     e$3({ attribute: false })
 ], FrigateCardProgressIndicator.prototype, "message", void 0);
 FrigateCardProgressIndicator = __decorate([
-    n$4('frigate-card-progress-indicator')
+    n$4('frigate-card-progress-indicator-3')
 ], FrigateCardProgressIndicator);
 function renderMessage(message) {
     if (message.type == 'error') {
@@ -6246,8 +6246,8 @@ function renderMessage(message) {
 }
 function renderProgressIndicator(message) {
     return $ `
-    <frigate-card-progress-indicator .message=${message || ''}>
-    </frigate-card-progress-indicator>
+    <frigate-card-progress-indicator-3 .message=${message || ''}>
+    </frigate-card-progress-indicator-3>
   `;
 }
 
